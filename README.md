@@ -93,11 +93,39 @@ The application follows a component-based architecture using Vue.js.
 - **Persistence:** IndexedDB provides client-side storage
 - **Rendering:** HTML Canvas API for drawing operations
 
+## Testing
+
+The project includes comprehensive test cases using Vitest and Vue Test Utils. Tests cover both UI components and services.
+
+### Test Structure
+
+- **Unit Tests:**
+  - **Component Tests:** Tests for Vue components like DrawingCanvas and Toolbar
+  - **Service Tests:** Tests for services like DatabaseService
+- **Mocks:** Custom mocks for dependencies like IndexedDB
+
+### Running Tests
+
+```sh
+# Run tests in watch mode
+npm test
+
+# Run tests once
+npm run test:run
+
+# Run tests with UI
+npm run test:ui
+
+# Generate coverage report
+npm run coverage
+```
+
 ## Future Improvements
 
 - Add more shape types (arcs, polygons, etc.)
 - Implement custom annotations
 - Add grid snapping and measurement units
+- Expand test coverage with integration tests
 - Export/import functionality (SVG, DXF, etc.)
 - Collaborative editing capabilities
 
