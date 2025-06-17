@@ -13,7 +13,7 @@ A web application for selecting, drawing, and annotating building plans. This in
 
 ## Tech Stack
 
-- **Framework:** Vue.js 3 with Composition API
+- **Framework:** Vue.js 3
 - **Build Tool:** Vite
 - **Database:** IndexedDB for client-side storage
 - **Dependencies:** UUID for unique shape identification
@@ -120,15 +120,10 @@ npm run test:ui
 npm run coverage
 ```
 
-## Future Improvements
+Final UI ScreenShot
+![WhatsApp Image 2025-06-17 at 11 41 19 PM (1)](https://github.com/user-attachments/assets/1badaad3-5186-4606-a058-60664238d844)
 
-- Add more shape types (arcs, polygons, etc.)
-- Implement custom annotations
-- Add grid snapping and measurement units
-- Expand test coverage with integration tests
-- Export/import functionality (SVG, DXF, etc.)
-- Collaborative editing capabilities
 
-## License
 
-MIT
+
+
