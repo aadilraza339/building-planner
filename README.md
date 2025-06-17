@@ -2,7 +2,7 @@
 
 A web application for selecting, drawing, and annotating building plans. This interactive tool allows users to create and modify building layouts with automatic measurement annotations.
 
-![Building Planner Screenshot](screenshots/building-planner.png)
+![Building Planner Screenshot](https://www.parabuild.com/downloads/Parabuild-v7-Reference-Manual/lib/NewItem3377.png)
 
 ## Features
 
